@@ -21,11 +21,6 @@
   background-color: var(--primery-color);
 }
 
-.body-darkcontent {
-  min-height: 100vh;
-  background-color: var(--dark-color);
-}
-
 .download-btn, .about-content .about-info .about-info-leftside .about-info-btn, .home-content .home-rightside .rightside-content .downloadCv-btn {
   color: var(--dark-color);
   font-family: "inter", sans-serif;
