@@ -62,6 +62,12 @@
     list-style-type: none;
     text-decoration: none;
 }
+.sections{
+    @include phone{
+        padding: 0 30px !important;
+    }
+}
+
 // home section
 .home-content{
     @extend .body-content;
@@ -84,12 +90,15 @@
             font-size: 40px;
             color: var(--dark-color);
             @include tablet{
-                font-size: 25px;
+                font-size: 22px;
             }
         }
         &:active{
             transform: translateY(-8px);
 
+        }
+        @include phone{
+            right: 10px;
         }
     }
     .home-menubar{
@@ -108,7 +117,7 @@
         }
         .menubar-item{
             font-size: 20px;
-            padding: 10px;
+            padding: 8px;
             margin-top: 12px;
             border-radius: 50%;
             background-color: var(--secondary-color);
@@ -118,6 +127,9 @@
             align-items: center;
             &:hover{
                 color: var(--white-color);
+            }
+            @include phone{
+                font-size: 16px;
             }
         }
        
@@ -187,10 +199,17 @@
                     span{
                         color: var(--secondary-color);
                     }
+                    @include phone{
+                        font-size: 23px;
+                    }
+            
                 }
                 p{
                     @extend .section-paragraph;
                     padding: 15px 0;
+                    @include phone{
+                        font-size: 15px !important;
+                    }
                     
                 }
                 .downloadCv-btn{
@@ -664,6 +683,9 @@
             h2{
                 @extend .section-header;
                 padding-bottom: 15px;
+                @include phone{
+                    font-size: 20px;
+                }
             }
             p{
                 @extend .section-paragraph;
@@ -686,6 +708,7 @@
                     color: var(--secondary-color);
                     padding-right: 10px;
                 }
+               
             }
            
         }
@@ -716,6 +739,9 @@
                     @include contactSection-largeScreen{
                         width: 150px;
                     }
+                    @include phone{
+                        width: 131px;
+                    }
                 }
                 .email{
                     width: 250px;
@@ -724,6 +750,9 @@
                     }
                     @include contactSection-largeScreen{
                         width: 150px;
+                    }
+                    @include phone{
+                        width: 131px;
                     }
                     
                 }
@@ -738,6 +767,9 @@
                     @include contactSection-mediumScreen{
                         display: block;
                     }
+                    @include phone{
+                        width: 284px;
+                    }
                 }
                 .text-area{
                     width: 525px;
@@ -746,6 +778,9 @@
                     }
                     @include contactSection-largeScreen{
                         width: 325px;
+                    }
+                    @include phone{
+                        width: 284px;
                     }
                 }
                 input:focus{
