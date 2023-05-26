@@ -38,7 +38,7 @@
   overflow: hidden;
 }
 
-.about-progressBar, .about-content .about-skill .about-skill-progressBar .progressBar-container .progressBar-container-item .react::before, .about-content .about-skill .about-skill-progressBar .progressBar-container .progressBar-container-item .javascript::before, .about-content .about-skill .about-skill-progressBar .progressBar-container .progressBar-container-item .sass::before, .about-content .about-skill .about-skill-progressBar .progressBar-container .progressBar-container-item .bootstrap::before, .about-content .about-skill .about-skill-progressBar .progressBar-container .progressBar-container-item .css::before, .about-content .about-skill .about-skill-progressBar .progressBar-container .progressBar-container-item .html::before {
+.about-progressBar, .about-content .about-skill .about-skill-progressBar .progressBar-container .progressBar-container-item .jest::before, .about-content .about-skill .about-skill-progressBar .progressBar-container .progressBar-container-item .typescript::before, .about-content .about-skill .about-skill-progressBar .progressBar-container .progressBar-container-item .react::before, .about-content .about-skill .about-skill-progressBar .progressBar-container .progressBar-container-item .javascript::before, .about-content .about-skill .about-skill-progressBar .progressBar-container .progressBar-container-item .sass::before, .about-content .about-skill .about-skill-progressBar .progressBar-container .progressBar-container-item .bootstrap::before, .about-content .about-skill .about-skill-progressBar .progressBar-container .progressBar-container-item .css::before, .about-content .about-skill .about-skill-progressBar .progressBar-container .progressBar-container-item .html::before {
   content: "";
   display: block;
   position: absolute;
@@ -417,19 +417,25 @@
   width: 90%;
 }
 .about-content .about-skill .about-skill-progressBar .progressBar-container .progressBar-container-item .css::before {
-  width: 80%;
+  width: 90%;
 }
 .about-content .about-skill .about-skill-progressBar .progressBar-container .progressBar-container-item .bootstrap::before {
-  width: 70%;
+  width: 90%;
 }
 .about-content .about-skill .about-skill-progressBar .progressBar-container .progressBar-container-item .sass::before {
   width: 90%;
 }
 .about-content .about-skill .about-skill-progressBar .progressBar-container .progressBar-container-item .javascript::before {
-  width: 50%;
+  width: 80%;
 }
 .about-content .about-skill .about-skill-progressBar .progressBar-container .progressBar-container-item .react::before {
-  width: 50%;
+  width: 80%;
+}
+.about-content .about-skill .about-skill-progressBar .progressBar-container .progressBar-container-item .typescript::before {
+  width: 70%;
+}
+.about-content .about-skill .about-skill-progressBar .progressBar-container .progressBar-container-item .jest::before {
+  width: 80%;
 }
 .about-content .about-timeline h1 {
   text-align: center;

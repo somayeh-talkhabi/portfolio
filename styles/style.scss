@@ -413,12 +413,12 @@
                     }
                     .css::before{
                         @extend .about-progressBar;
-                        width: 80%;
+                        width: 90%;
                         
                     }
                     .bootstrap::before{
                         @extend .about-progressBar;
-                        width: 70%;
+                        width: 90%;
                         
                     }.sass::before{
                         @extend .about-progressBar;
@@ -427,12 +427,22 @@
                     }
                     .javascript::before{
                         @extend .about-progressBar;
-                        width: 50%;
+                        width: 80%;
                         
                     }
                     .react::before{
                         @extend .about-progressBar;
-                        width: 50%;
+                        width: 80%;
+                        
+                    }
+                    .typescript::before{
+                        @extend .about-progressBar;
+                        width: 70%;
+                        
+                    }
+                    .jest::before{
+                        @extend .about-progressBar;
+                        width: 80%;
                         
                     }
 
